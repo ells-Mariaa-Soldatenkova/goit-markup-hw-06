@@ -160,6 +160,7 @@
     padding: 100px 0;
   }
   .footer .container {
+    max-width: 1158px;
     gap: 0px;
   }
   .footer-social {
