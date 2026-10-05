@@ -12,7 +12,7 @@
 }
 .portfolio-list {
   display: flex;
-  gap: 72px 24px;
+  gap: 48px 24px;
   flex-wrap: wrap;
 }
 .portfolio-cards {
@@ -66,12 +66,15 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .portfolio-list {
+    gap: 72px 24px;
+  }
   .portfolio-cards {
     width: calc((100% - 24px) / 2);
   }
 }
 
-@media only screen and (min-width: 1188px) {
+@media only screen and (min-width: 1158px) {
   .section-portfolio {
     padding: 120px 0;
   }

@@ -12,11 +12,14 @@
 }
 .team-list {
   display: flex;
-  gap: 72px 24px;
+  justify-content: center;
+  gap: 64px 24px;
   flex-wrap: wrap;
 }
 
 .team-cards {
+  width: 100%;
+  max-width: 264px;
   background: #fff;
   border-radius: 0 0 4px 4px;
   overflow: hidden;
@@ -74,21 +77,18 @@
 
 @media only screen and (min-width: 768px) {
   .team-cards {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
   }
   .team-list {
     padding-inline: 92px;
   }
 }
 
-@media only screen and (min-width: 1188px) {
+@media only screen and (min-width: 1158px) {
   .section-team {
     padding: 120px 0;
   }
   .team-cards {
     width: calc((100% - 72px) / 4);
-  }
-  .team-list {
-    padding-inline: 15px;
   }
 }

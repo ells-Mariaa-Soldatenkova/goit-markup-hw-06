@@ -50,6 +50,12 @@
   color: #404bbf;
 }
 
+@media only screen and (max-width: 767.98px) {
+  .header .logo {
+    padding: 16px 0;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .header address {
     margin-left: auto;
@@ -68,6 +74,12 @@
     align-items: center;
     margin-left: auto;
   }
+  .info-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
   .header {
     border-bottom: 1px solid #e7e9fc;
   }
@@ -82,5 +94,10 @@
     flex-direction: row;
     align-items: center;
     gap: 40px;
+  }
+  .info-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
