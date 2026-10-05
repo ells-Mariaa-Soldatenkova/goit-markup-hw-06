@@ -13,7 +13,7 @@
 .team-list {
   display: flex;
   justify-content: center;
-  gap: 64px 24px;
+  gap: 72px 24px;
   flex-wrap: wrap;
 }
 
@@ -76,6 +76,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .team-list {
+    row-gap: 64px;
+  }
   .team-cards {
     width: 264px;
   }

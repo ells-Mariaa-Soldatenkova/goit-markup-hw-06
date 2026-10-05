@@ -121,6 +121,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .footer .container {
+    max-width: 720px;
+  }
   .footer-cnt {
     text-align: left;
   }

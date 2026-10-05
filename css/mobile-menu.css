@@ -89,6 +89,12 @@
   font-size: 20px;
   line-height: 1.2;
 }
+.mobile-menu-info-list a[href^="tel:"] {
+  color: #4d5ae5;
+}
+.mobile-menu-info-list a[href^="mailto:"] {
+  color: #434455;
+}
 .mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -108,6 +114,3 @@
   color: #404bbf;
 }
 
-.mobile-menu-info-list .info-link.active {
-  color: #404bbf;
-}
